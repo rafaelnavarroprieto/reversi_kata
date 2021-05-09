@@ -11,6 +11,7 @@ Reversi is a board game for two players. More information can be found on Wikipe
 
 Suggested Test Cases
 
+```ruby
 ........
 ........
 ........
@@ -20,12 +21,13 @@ Suggested Test Cases
 ........
 ........
 B
+```
 (A “.” indicates an empty square. A “B” indicates a black piece and a “W” represents a white piece. The trailing “B” indicates that it is black’s turn)
 
 You could either output the possible moves as co-ordinates (columns labelled A - H, rows labelled 1 - 8 starting from top left hand corner) like this: [C5, D6, E3, F4]
 
 or graphically like this:
-
+```ruby
 ........
 ........
 ....0...
@@ -35,12 +37,13 @@ or graphically like this:
 ........
 ........
 B
+```
 Comments from those who are working on this Kata
 
 Please try this Kata and comment! We could probably do with some more test cases too.
 
 I like this Kata, it looks nicer when there are spaces between the columns:
-
+```ruby
  .  .  .  .  .  .  .  . 
  .  .  .  .  .  .  .  . 
  .  .  .  .  .  .  .  . 
@@ -50,3 +53,4 @@ I like this Kata, it looks nicer when there are spaces between the columns:
  .  .  .  .  .  .  .  . 
  .  .  .  .  .  .  .  . 
  B
+```

@@ -13,7 +13,7 @@ class Token
   end
 
   def reverse
-    @color = !color
+    @color = !@color
   end
 
   def white?
